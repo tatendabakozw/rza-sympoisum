@@ -22,9 +22,9 @@ const secondaryNavigation = [
 
 const buyer_navigation = [
     // { name: 'Home', href: '/dashboard/buyer-home', icon: TemplateIcon, current: false },
-    { name: 'Abstracts', href: '/orders', icon: UserGroupIcon, current: false },
-    { name: 'Reviewers', href: '/dashboard/buyer-products', icon: UserGroupIcon, current: false },
-    { name: 'User Settings', href: '/dashboard/usersettings', icon: Cog6ToothIcon },
+    { name: 'Abstracts', href: '/dashboard/abstracts', icon: UserGroupIcon, current: false },
+    { name: 'Reviewers', href: '/dashboard/reviewers', icon: UserGroupIcon, current: false },
+    { name: 'User Settings', href: '/dashboard/settings', icon: Cog6ToothIcon },
 ]
 
 interface Props {
